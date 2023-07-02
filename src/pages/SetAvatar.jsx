@@ -32,7 +32,7 @@ export default function SetAvatar() {
     }
     num();
     
-  },[])
+  },[navigate])
   const setProfilePicture = async () => {
     try {
       const user = await JSON.parse(localStorage.getItem("chat-app-user"));
